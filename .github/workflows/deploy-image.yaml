@@ -5,7 +5,7 @@ on:
     branches:
       - dev
       - staging
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   log-the-inputs:
